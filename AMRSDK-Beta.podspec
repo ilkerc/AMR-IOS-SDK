@@ -27,7 +27,7 @@ Admost Mediation Router is a powerful mediation tool to maximize your ad revenue
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -lc++' }
-  s.source_files = 'AMRSDK/AMRSDK.framework/Headers/*.h'
+  s.source_files = 'AMRSDK-Beta/AMRSDK.framework/Headers/*.h'
   s.public_header_files = 'AMRSDK-Beta/AMRSDK.framework/Headers/*.h'
   s.vendored_frameworks = 'AMRSDK-Beta/AMRSDK.framework'
   s.resources = ['AMRSDK-Beta/AMRResources.bundle']
