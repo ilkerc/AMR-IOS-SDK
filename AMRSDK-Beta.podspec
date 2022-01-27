@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
 	
   s.name             = 'AMRSDK-Beta'
   s.version          = '1.5.5'
-  s.source           = { 
+  s.source           = {
     :git => 'https://github.com/admost/AMR-IOS-SDK.git',
-    :tag => '1.5.5' 
+    :tag => s.version
 }
   s.requires_arc     = true
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
